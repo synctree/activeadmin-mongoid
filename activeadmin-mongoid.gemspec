@@ -19,8 +19,5 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'mongoid' # control this elsewhere
-  gem.add_runtime_dependency 'rails',           '>= 4.0'
   gem.add_runtime_dependency 'activeadmin',     '~> 0.6.1'
-
-  gem.add_development_dependency 'rspec-rails',  '~> 2.14'
 end
